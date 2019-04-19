@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Message Box"))
         self.pushButton.setText(_translate("MainWindow", "Click Me"))
         '''user code'''
-        self.pushButton.clicked.connect(ledToggle())
+        self.pushButton.clicked.connect(ledToggle)
 
 import sys
 app = QtWidgets.QApplication(sys.argv)
